@@ -14,3 +14,9 @@ if (num > 0) {
 else {
     console.log("Number is not greater than 0.");
 }
+
+/* 
+
+Write a loop 1 to 200. Use break to exit the loop once you find 100.
+
+*/
