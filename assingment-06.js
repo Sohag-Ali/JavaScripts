@@ -10,3 +10,5 @@ var incrementPerYear = salary*0.05;
 }
 
 console.log(salary.toFixed(2));  
+
+
