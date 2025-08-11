@@ -1,0 +1,17 @@
+const numbers = [300, 100, 700,1200];
+
+const products = [
+    {name: 'shampoo', price: 300},
+    {name: 'chiruni', price: 100},
+    {name: 'shirt', price: 700},
+    {name: 'pant', price: 1200}
+]
+
+function getShoppingToal ( products) {
+    let total = 0;
+    for (const product of products){
+        total = total + product.price;
+    }
+    return total;
+}
+console.log(getShoppingToal(products));
