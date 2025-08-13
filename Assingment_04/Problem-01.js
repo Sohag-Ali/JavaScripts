@@ -9,3 +9,6 @@ function totalFine(fare) {
 
     return total;
 }
+
+
+console.log (totalFine(220));
