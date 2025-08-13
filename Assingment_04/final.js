@@ -11,8 +11,6 @@ function totalFine(fare) {
     return total;
 }
 
-// console.log (totalFine(200));
-
 // Problem : 02 solution............
 
 function  onlyCharacter(str) {
@@ -25,7 +23,6 @@ function  onlyCharacter(str) {
 
     return result;
 }
-// console.log(onlyCharacter("Cy   bar- At  tac k  "));
 
 // Problem 03 solution...........
 
@@ -46,12 +43,6 @@ function bestTeam(team1, team2) {
     }
 }
 
-// let r = bestTeam({ name: "Brazil", foul: 5, cardY: 1, cardR: 0 },
-// { name: "Argentina", foul: 7, cardY: 0, cardR: 0 });
-
-// console.log(r);
-
-
 // Problem 04 solution
 
 function isSame(arr1, arr2) {
@@ -71,9 +62,6 @@ function isSame(arr1, arr2) {
 
     return true;
 }
-
-// console.log(isSame([1 , "4" , 4], [1 , 4  , 4]));
-
 
 // Problem 05 solution..........
 
@@ -108,6 +96,3 @@ function resultReport(marks) {
         fail: failCount
     };
 }
-
-
-// console.log(resultReport([98, 87, 67, 91, 92, 33, 87]));
