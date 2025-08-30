@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM DOMA Dom Dom Event</h1>
+    <button onclick="console.log(7)"> Click me</button>
+     <button onclick="console.log('sohag')"> Click me</button>
+    <input type="text">
+    <br>
+<br>
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button ondblclick="makeRed()">Make Red</button>
+    <button id="btn-make-purple"> Make Purple</button>
+
+
+    <br>
+
+    <button id="btn-make-green">Make Green</button>
+
+
+<script>
+
+document.getElementById('btn-make-green').addEventListener('mouseover', function makeGreen()
+{
+    document.body.style.backgroundColor = 'green';
+})
+
+
+    function makeYellow(){
+        document.body.style.backgroundColor = 'yellow';
+    }
+    function makeRed(){
+        document.body.style.backgroundColor = 'red';
+    }
+    function makePurple(){
+        document.body.style.backgroundColor = 'purple';
+    }
+    const btnMakePurple = document .getElementById('btn-make-purple'); 
+    btnMakePurple.onclick = makePurple();
+
+
+</script>
+
+    <script src="./js/event.js"></script>
+</body>
+</html>
