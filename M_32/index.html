@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #post-container{
+            max-width: 1160px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 30px;
+            /* background-color: rgb(214, 202, 188); */
+           
+        }
+        .post-card{
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px gray;
+            height: 100%;
+            
+        }
+        .post-card p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>API JSON</h1>
+    <h2>Modhu Modhu</h2>
+
+    <button onclick="loadData()">Load Data</button>
+    <button onclick="loadPost()">Load Post</button>
+    <h2>All Post</h2>
+   <div id="post-container">
+   
+   </div>
+
+    <!-- <script src="./json.js"></script> -->
+    <script src="./json2.js"></script>
+</body>
+</html>
